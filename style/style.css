@@ -1,0 +1,158 @@
+@charset "utf-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #222;
+}
+
+a:hover{
+    opacity: 0.7;
+}
+
+ul {
+    list-style: none;
+}
+
+.flexContainer {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+#wrap{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid #000;
+}
+
+#left{
+    padding: 20px;
+}
+
+#headerlogo{
+    margin-bottom: 10px;
+}
+
+#gnbbox{
+    background-color: #d7ebf2;
+    margin: 0 auto;
+
+    width: 160px;
+}
+
+
+#gnb{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    width: 160px;
+    padding: 10px 0px;
+    border: 1px solid #000;
+    margin-top: -1px;
+}
+
+#slide{
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    margin-bottom: 5px;
+}
+
+#slidetext{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 20px 90px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: absolute;
+    border-radius: 10px;
+    left: 200px;
+    top: 150px;
+}
+
+#main{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+table{
+    border: 1px solid #ddd;
+    margin: 0px 5px;
+}
+
+#no_table{
+    padding: 10px 0px;
+    line-height: 24px;
+}
+
+#no_table2{
+    padding-left: 4px;
+}
+
+button{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+}
+
+#no_button{
+    position: relative;
+    left: 25px;
+    top: 1px;
+    border-bottom: 1px solid #fff;
+}
+
+#ga_table{
+    padding: 20px 2px;
+}
+
+#ga_button{
+     position: relative;
+    left: 25px;
+    top: 1px;
+    border-bottom: 1px solid #fff;
+}
+
+#shortcut{
+    padding: 30px 10px;
+}
+
+#footer{
+    display: flex;
+}
+
+#footerlogo{
+    vertical-align: middle;
+    padding-top: 24px;
+    padding-left: 10px;
+    padding-right: 25px;
+}
+
+#place{
+    margin-bottom: 10px;
+    font-style: italic;
+}
+
+.cp{
+    margin-bottom: 15px;
+}
+
+#SNS_box{
+    padding-left: 65px;
+    padding-top: 15px;
+}
+
+select{
+    font-size: 24px;
+}
